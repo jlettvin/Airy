@@ -1,6 +1,39 @@
 #!/usr/bin/env python
 
-"""Airy.py implements fine granularity Airy function lookup."""
+
+"""
+Airy.py
+
+Implements fine granularity Airy function lookup.
+
+Copyright(c) 2013 Jonathan D. Lettvin, All Rights Reserved"
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+"""
+
+__module__     = "Airy.py"
+__author__     = "Jonathan D. Lettvin"
+__copyright__  = """\
+Copyright(C) 2011 Jonathan D. Lettvin, All Rights Reserved"""
+__credits__    = [ "Jonathan D. Lettvin" ]
+__license__    = "GPLv3"
+__version__    = "0.0.1"
+__maintainer__ = "Jonathan D. Lettvin"
+__email__      = "jlettvin@gmail.com"
+__contact__    = "jlettvin@gmail.com"
+__status__     = "Demonstration"
+__date__       = "20111027"
 
 import string
 from scipy import arange, pi, set_printoptions
